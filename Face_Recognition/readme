@@ -1,0 +1,18 @@
+Face Recognition System
+------------------------
+#The database of faces used is 'Our Database of Faces' of  AT&T Laboratories Cambridge. available at https://www.cl.cam.ac.uk/research/dtg/attarchive/facedatabase.html
+
+#The images are in PGM format.
+#The images are organised in 40 directories (one for each subject), which have names of the form sX, where X indicates the subject number (between 1 and 40). 7 out of 10(image 1 to 7) of each subject are used as training data.
+#image 8 to 10 of each subject are test data which are used as inputs.
+
+#input:
+1.Change the directory in the readImage function
+2.direc, i and j are inputs for face_recog(direc,i,j).
+
+direc is the file directory where the dataset is stored.
+i is the subject number, and j is the image number, i.e. 'dir/si/j.pgm' is input as test image.
+
+#output
+The output is the subject number of the recognized face in the input image.
+
