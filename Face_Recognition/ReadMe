@@ -16,3 +16,6 @@ i is the subject number, and j is the image number, i.e. 'dir/si/j.pgm' is input
 #output
 The output is the subject number of the recognized face in the input image.
 
+#1.JPG is no. of eigen values(K) vs accuracy plot to determine optimum K
+#2.JPG is threshold vs accuracy plot at above value of K to determine optimum threshold
+
